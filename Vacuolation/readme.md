@@ -1,5 +1,3 @@
-
-
 #### Instructions to run on data
 
 The program that you can have a try to quantify the vacuoles is listed in **Code_bubble** directory.
@@ -70,6 +68,8 @@ In process.cpp:
 ```
 
 We set proper thresholds to let the program correctly detect the cells and vacuole area. For the following folder, you need to change the corresponding setting to reproduce exactly the same results in the work. 
+
+Please note that these changes are due to slightly different imaging conditions across all samples (detectable through our presented panels - they have not undergone brightness and contrast adjustments).
 
 ```
 For the following folders:
@@ -180,3 +180,14 @@ with segmentation resize = (512, 512), diameter = 35, image n_split = 1
 plus: int percentile_value = get_percentile(tmp, tmpcnt, 65, true) + 55;
 plus: tail <= 8000
 ```
+
+```
+For the following folders:
+vacuoles in WT+probe
+
+Change in process.py and process.cpp:
+with segmentation resize = (512, 512), diameter = 45, image n_split = 1
+plus int percentile_value = get_percentile(tmp, tmpcnt, 75, true) + 90;
+plus size >= 10000, tail2 <= 150
+```
+
