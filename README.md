@@ -1,7 +1,21 @@
 # LYVAC
 Source code, minimal datasets, and the tutorial of how to run the code for the LYVAC manuscript.
 
-We will modify the title and other information of this repository with the status of the paper to make it more convenient for readers.
+#### Instructions: Run the Demo
+
+For the following sections (sub-folders), we provide instructions to run on data, expected output, and expected run time for a demo on a "normal" desktop computer. Please go into separate sub-folders and see the details there. We're also trying our best to provide reproduction instructions.
+
+**Please read the readme file in each sub-folder to get an overview before running the program.**
+
+**Folder 1**: Vacuolation quantification
+
+**Folder 2**: Protein colocalization quantification
+
+Note: this folder includes the files to quantify single/double channel signal intensity
+
+**Folder 3**: Cell death quantification
+
+**Folder 4**: Molecular_Dynamics
 
 #### System requirements
 
@@ -53,20 +67,6 @@ pip install opencv-python scikit-image pandas seaborn
 Note: The installed version is 2.2, but we only used the functions existing in Cellpose 1.0, so we cite the software version and the paper as the authors stated [here](https://github.com/MouseLand/cellpose#citation).
 
 The typical installation may take you less than 1 h to finish if you are familiar with the system. However, it may be confusing and take you 1 week if you are not familiar with Python environment or meet problems. Please pose an issue on Github or reach out in this case. 
-
-#### Instructions: Run the Demo
-
-For the following sections (sub-folders), we provide instructions to run on data, expected output, and expected run time for a demo on a "normal" desktop computer. Please go into separate sub-folders and see the details there. We're also trying our best to provide reproduction instructions.
-
-**Please read the readme file in each sub-folder to get an overview before running the program.**
-
-**Folder 1**: Vacuolation quantification
-
-**Folder 2**: Protein colocalization quantification
-
-Note: this folder includes the files to quantify single/double channel signal intensity
-
-**Folder 3**: Cell death quantification
 
 #### Code Reproducibility and Contact Information
 
