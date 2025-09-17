@@ -74,3 +74,8 @@ The typical installation may take you less than 1 h to finish if you are familia
 We have uploaded the minimum data set that can ensure the program runs as part of the reproduction instructions. All source data can be acquired upon reasonable request. For the acquisition of quantitative data in all papers, we retained all procedures and the intermediate results of their runs. Fixed random seeds are set up for all random sampling links to ensure that the results of each run of the program are the same.
 
 If you want to modify the program based on the code reproduction results, we have added English comments to the code as many as possible to help you, but we still recommend that you contact us before modifying: we are here to help. Please contact the author, Shawn Haoxiang Yang (yanghaoxiang7@gmail.com), and cc the corresponding author, Jay Xiaojun Tan (jay.tan@pitt.edu). We will try to respond within 24 hours during workdays.
+
+#### Citing LYVAC
+
+If you find this code useful in your research, please cite the following:
+Yang, H., Xun, J., Li, Y., Mondal, A., Lv, B., Watkins, S.C., Shi, L. and Tan, J.X., 2025. LYVAC/PDZD8 is a lysosomal vacuolator. Science, 389(6762), p.eadz0972.
